@@ -1,0 +1,1106 @@
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 1
+Enter global depth: Enter number of entries in bucket: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+
+ ***** Hash Table ***** 
+
+noOfBuckets :: 1
+level :: 0
+next pointer :: 0
+| Elements |
+ | 64 |
+
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+
+ ***** Hash Table ***** 
+
+noOfBuckets :: 1
+level :: 0
+next pointer :: 0
+| Elements |
+ | 64  | 51 |
+
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+
+ ***** Hash Table ***** 
+
+noOfBuckets :: 1
+level :: 0
+next pointer :: 0
+| Elements |
+ | 64  | 51  | 4 |
+
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+
+ ***** Hash Table ***** 
+
+noOfBuckets :: 1
+level :: 0
+next pointer :: 0
+| Elements |
+ | 64  | 51  | 4  | 16 |
+
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 0 64
+1 51
+0 4
+0 16
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+
+ ***** Hash Table ***** 
+
+noOfBuckets :: 1
+level :: 1
+next pointer :: 0
+| Elements |
+ | 64  | 4  | 16 |
+ | 51  | 15 |
+
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+
+ ***** Hash Table ***** 
+
+noOfBuckets :: 1
+level :: 1
+next pointer :: 0
+| Elements |
+ | 64  | 4  | 16  | 12 |
+ | 51  | 15 |
+
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+
+ ***** Hash Table ***** 
+
+noOfBuckets :: 1
+level :: 1
+next pointer :: 0
+| Elements |
+ | 64  | 4  | 16  | 12 |
+ | 51  | 15  | 5 |
+
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 0 64
+0 4
+0 16
+0 12
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+
+ ***** Hash Table ***** 
+
+noOfBuckets :: 1
+level :: 1
+next pointer :: 1
+| Elements |
+ | 64  | 4  | 16  | 12 |
+ | 51  | 15  | 5 |
+ | 10 |
+
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+
+ ***** Hash Table ***** 
+
+noOfBuckets :: 1
+level :: 1
+next pointer :: 1
+| Elements |
+ | 64  | 4  | 16  | 12 |
+ | 51  | 15  | 5 |
+ | 10  | 18 |
+
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 3 51
+3 15
+1 5
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+
+ ***** Hash Table ***** 
+
+noOfBuckets :: 1
+level :: 2
+next pointer :: 0
+| Elements |
+ | 64  | 4  | 16  | 12  | 20 |
+ | 5 |
+ | 10  | 18 |
+ | 51  | 15 |
+
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 4
+Enter element to delete: Element is deleted
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+
+ ***** Hash Table ***** 
+
+noOfBuckets :: 1
+level :: 2
+next pointer :: 0
+| Elements |
+ | 64  | 4  | 16  | 12  | 20 |
+ | 5 |
+ | 18 |
+ | 51  | 15 |
+
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 4
+Enter element to delete: Element is deleted
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+
+ ***** Hash Table ***** 
+
+noOfBuckets :: 1
+level :: 2
+next pointer :: 0
+| Elements |
+ | 64  | 4  | 16  | 12  | 20 |
+ | 5 |
+|
+ | 51  | 15 |
+
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+
+ ***** Hash Table ***** 
+
+noOfBuckets :: 1
+level :: 2
+next pointer :: 0
+| Elements |
+ | 64  | 4  | 16  | 12  | 20 |
+ | 5 |
+|
+ | 51  | 15  | 7 |
+
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+
+ ***** Hash Table ***** 
+
+noOfBuckets :: 1
+level :: 2
+next pointer :: 0
+| Elements |
+ | 64  | 4  | 16  | 12  | 20 |
+ | 5  | 21 |
+|
+ | 51  | 15  | 7 |
+
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 1
+Enter global depth: Enter number of entries in bucket: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 0 0
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1 1
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+
+ ***** Hash Table ***** 
+
+noOfBuckets :: 2
+level :: 1
+next pointer :: 0
+| Elements |
+ | 0 |
+ | 1 |
+ | 2 |
+ | 3 |
+
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 0 0
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+
+ ***** Hash Table ***** 
+
+noOfBuckets :: 2
+level :: 1
+next pointer :: 1
+| Elements |
+ | 0 |
+ | 1 |
+ | 2 |
+ | 3 |
+ | 4 |
+
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1 1
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 2 2
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 3 3
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+
+ ***** Hash Table ***** 
+
+noOfBuckets :: 2
+level :: 2
+next pointer :: 0
+| Elements |
+ | 0 |
+ | 1 |
+ | 2 |
+ | 3 |
+ | 4 |
+ | 5 |
+ | 6 |
+ | 7 |
+
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 1
+Enter global depth: Enter number of entries in bucket: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+
+ ***** Hash Table ***** 
+
+noOfBuckets :: 2
+level :: 0
+next pointer :: 0
+| Elements |
+ | 16 |
+|
+
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+
+ ***** Hash Table ***** 
+
+noOfBuckets :: 2
+level :: 0
+next pointer :: 0
+| Elements |
+ | 16  | 32 |
+|
+
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 0 16
+0 32
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+
+ ***** Hash Table ***** 
+
+noOfBuckets :: 2
+level :: 0
+next pointer :: 1
+| Elements |
+ | 16  | 32  | 0 |
+|
+|
+
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+
+ ***** Hash Table ***** 
+
+noOfBuckets :: 2
+level :: 0
+next pointer :: 1
+| Elements |
+ | 16  | 32  | 0  | 64 |
+|
+|
+
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 1
+Enter global depth: Enter number of entries in bucket: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 0 4
+2 10
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+
+ ***** Hash Table ***** 
+
+noOfBuckets :: 2
+level :: 0
+next pointer :: 1
+| Elements |
+ | 4  | 12  | 32  | 16 |
+ | 15  | 1  | 5  | 7  | 21  | 19  | 13 |
+ | 10 |
+
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 3 15
+1 1
+1 5
+3 7
+1 21
+3 19
+1 13
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+
+ ***** Hash Table ***** 
+
+noOfBuckets :: 2
+level :: 1
+next pointer :: 0
+| Elements |
+ | 4  | 12  | 32  | 16  | 20 |
+ | 1  | 5  | 21  | 13 |
+ | 10 |
+ | 15  | 7  | 19 |
+
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 4 4
+4 12
+0 32
+0 16
+4 20
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+
+ ***** Hash Table ***** 
+
+noOfBuckets :: 2
+level :: 1
+next pointer :: 1
+| Elements |
+ | 32  | 16 |
+ | 1  | 5  | 21  | 13  | 9 |
+ | 10 |
+ | 15  | 7  | 19 |
+ | 4  | 12  | 20 |
+
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 1
+Enter global depth: Enter number of entries in bucket: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 0 64
+1 51
+0 4
+0 16
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 0 64
+0 4
+0 16
+0 12
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+
+ ***** Hash Table ***** 
+
+noOfBuckets :: 1
+level :: 1
+next pointer :: 1
+| Elements |
+ | 64  | 4  | 16  | 12 |
+ | 51  | 15  | 5 |
+ | 10 |
+
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 3 51
+3 15
+1 5
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+
+ ***** Hash Table ***** 
+
+noOfBuckets :: 1
+level :: 2
+next pointer :: 0
+| Elements |
+ | 64  | 4  | 16  | 12  | 20 |
+ | 5  | 21 |
+ | 10  | 18 |
+ | 51  | 15  | 7 |
+
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 1
+Enter global depth: Enter number of entries in bucket: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+
+ ***** Hash Table ***** 
+
+noOfBuckets :: 1
+level :: 0
+next pointer :: 0
+| Elements |
+ | 4 |
+
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+
+ ***** Hash Table ***** 
+
+noOfBuckets :: 1
+level :: 0
+next pointer :: 0
+| Elements |
+ | 4  | 16 |
+
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+
+ ***** Hash Table ***** 
+
+noOfBuckets :: 1
+level :: 0
+next pointer :: 0
+| Elements |
+ | 4  | 16  | 32 |
+
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 0 4
+0 16
+0 32
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+
+ ***** Hash Table ***** 
+
+noOfBuckets :: 1
+level :: 1
+next pointer :: 0
+| Elements |
+ | 4  | 16  | 32  | 64 |
+|
+
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+
+ ***** Hash Table ***** 
+
+noOfBuckets :: 1
+level :: 1
+next pointer :: 0
+| Elements |
+ | 4  | 16  | 32  | 64  | 128 |
+|
+
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+
+ ***** Hash Table ***** 
+
+noOfBuckets :: 1
+level :: 1
+next pointer :: 0
+| Elements |
+ | 4  | 16  | 32  | 64  | 128  | 8 |
+|
+
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 0 4
+0 16
+0 32
+0 64
+0 128
+0 8
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+
+ ***** Hash Table ***** 
+
+noOfBuckets :: 1
+level :: 1
+next pointer :: 1
+| Elements |
+ | 4  | 16  | 32  | 64  | 128  | 8  | 256 |
+|
+|
+
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+3. Search an element to the HashTable
+4. Delete an element from the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered -1
