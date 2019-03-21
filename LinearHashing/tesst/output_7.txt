@@ -1,0 +1,253 @@
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+4. Search an element to the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 1
+Enter initial number of Buckets: Enter number of entries in bucket: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+4. Search an element to the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+4. Search an element to the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+4. Search an element to the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+4. Search an element to the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+4. Search an element to the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+4. Search an element to the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+4. Search an element to the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+4. Search an element to the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+4. Search an element to the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+4. Search an element to the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+4. Search an element to the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+4. Search an element to the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+4. Search an element to the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+4. Search an element to the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+4. Search an element to the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+
+ ***** Hash Table ***** 
+
+Level: 0
+Next bucket to split : 0
+Bucket_No  Pages in bucket 		::| Elements |
+0 			1 		:: | 32 44 36 |
+1 			1 		:: | 9 25 5 |
+2 			1 		:: | 14 18 10 30 |
+3 			1 		:: | 31 35 7 11 |
+
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+4. Search an element to the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+4. Search an element to the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+
+ ***** Hash Table ***** 
+
+Level: 0
+Next bucket to split : 1
+Bucket_No  Pages in bucket 		::| Elements |
+0 			1 		:: | 32 |
+1 			1 		:: | 9 25 5 |
+2 			1 		:: | 14 18 10 30 |
+3 			2 		:: | 31 35 7 11 43 |
+4 			1 		:: | 44 36 |
+
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+4. Search an element to the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+4. Search an element to the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+
+ ***** Hash Table ***** 
+
+Level: 0
+Next bucket to split : 1
+Bucket_No  Pages in bucket 		::| Elements |
+0 			1 		:: | 32 |
+1 			1 		:: | 9 25 5 37 |
+2 			1 		:: | 14 18 10 30 |
+3 			2 		:: | 31 35 7 11 43 |
+4 			1 		:: | 44 36 |
+
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+4. Search an element to the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+4. Search an element to the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+
+ ***** Hash Table ***** 
+
+Level: 0
+Next bucket to split : 2
+Bucket_No  Pages in bucket 		::| Elements |
+0 			1 		:: | 32 |
+1 			1 		:: | 9 25 |
+2 			1 		:: | 14 18 10 30 |
+3 			2 		:: | 31 35 7 11 43 |
+4 			1 		:: | 44 36 |
+5 			1 		:: | 5 37 29 |
+
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+4. Search an element to the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+4. Search an element to the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+4. Search an element to the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+4. Search an element to the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+
+ ***** Hash Table ***** 
+
+Level: 0
+Next bucket to split : 3
+Bucket_No  Pages in bucket 		::| Elements |
+0 			1 		:: | 32 |
+1 			1 		:: | 9 25 |
+2 			1 		:: | 18 10 66 34 |
+3 			2 		:: | 31 35 7 11 43 |
+4 			1 		:: | 44 36 |
+5 			1 		:: | 5 37 29 |
+6 			1 		:: | 14 30 22 |
+
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+4. Search an element to the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 2
+Enter element to add: 1
+2
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+4. Search an element to the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered 5
+
+ ***** Hash Table ***** 
+
+Level: 1
+Next bucket to split : 0
+Bucket_No  Pages in bucket 		::| Elements |
+0 			1 		:: | 32 |
+1 			1 		:: | 9 25 |
+2 			2 		:: | 18 10 66 34 50 |
+3 			2 		:: | 35 11 43 |
+4 			1 		:: | 44 36 |
+5 			1 		:: | 5 37 29 |
+6 			1 		:: | 14 30 22 |
+7 			1 		:: | 31 7 |
+
+1. Create new ExtendibleHashTable
+2. Add an element to the HashTable
+4. Search an element to the HashTable
+5. Print HashTable
+Any other choice to exit
+Enter your choice: You entered -1
