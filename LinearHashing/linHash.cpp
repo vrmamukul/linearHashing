@@ -12,7 +12,6 @@ void linearHashing::createHashTable(int pageSize,int nBuckets){
 	for (int i = 0; i < this->nBuckets; ++i)
 	{
 		this->hashTable[i] = new BucketPage();
-		this->hashTable[i]->nPage = 1;
 		// cout<<"yeyy"<<endl;
 	}
 }
@@ -22,45 +21,20 @@ void linearHashing::createHashTable(int pageSize,int nBuckets){
 void linearHashing::insertElement(int val){
 	// printf("yooooo\n");
 	int bucketIndex = this->getBucketIndex(val,this->level);
-
-	// cout<<bucketIndex<<endl;
 	if(bucketIndex < this->next){
 		bucketIndex = this->getBucketIndex(val,this->level+1);
 	}
-	if(this->hashTable[bucketIndex]->page.size() < this->hashTable[bucketIndex]->nPage*this->pageSize){
-		this->hashTable[bucketIndex]->page.push_back(val);
+	if(this->hashTable[bucketIndex]->page.size()%this->pageSize == 0 && this->hashTable[bucketIndex]->page.size()>0){
+		splitBucket(this->next);
+		this->next = (this->next+1)%((twoPower(this->level))*(this->initialBuckets));
+		if(this->next==0)
+			this->level++;
 	}	
-	else{
-
-		splitBucket(next);
-		int splitAt = next;
-		// this->printHashTable();
-		this->next +=1;
-		
-		if(this->next == (this->initialBuckets*twoPower(this->level))){
-			this->level+=1;
-			this->next=0;
-			bucketIndex = this->getBucketIndex(val,this->level);
-			// printf("%d\n",this->level);
-			// printf("%d\n",bucketIndex);
-		}
-		
-		// cout<<"fsfsf  "<<bucketIndex<<splitAt<<endl;
-		if(bucketIndex==splitAt){
-			int newBucketIndex = getBucketIndex(val,this->level+1);
-			this->hashTable[newBucketIndex]->page.push_back(val);
-			// cout<<"ccccc"<<hashTable[bucketIndex]->page.size()<<" "<< this->hashTable[bucketIndex]->nPage*this->pageSize<<endl;
-			if(this->hashTable[bucketIndex]->page.size() > this->hashTable[bucketIndex]->nPage*this->pageSize) this->hashTable[bucketIndex]->nPage+=1;
-		}
-		else{
-			if(this->hashTable[bucketIndex]->page.size() < this->hashTable[bucketIndex]->nPage*this->pageSize)
-				this->hashTable[bucketIndex]->page.push_back(val);
-			else{
-				this->hashTable[bucketIndex]->page.push_back(val);
-				this->hashTable[bucketIndex]->nPage+=1;
-			}
-		}
+	bucketIndex = this->getBucketIndex(val,this->level);
+	if(bucketIndex < this->next){
+		bucketIndex = this->getBucketIndex(val,this->level+1);
 	}
+	this->hashTable[bucketIndex]->page.push_back(val);
 }
 
 
@@ -69,7 +43,6 @@ void linearHashing::splitBucket(int bucketIndex){
 	this->hashTable.resize(this->nBuckets+1);
 	this->nBuckets +=1;
 	this->hashTable[nBuckets-1] = new BucketPage();
-	this->hashTable[nBuckets-1]->nPage = 1;
 
 	list<int>&originalBucket = this->hashTable[bucketIndex]->page;
 
@@ -98,8 +71,8 @@ bool linearHashing::searchElement(int val){
 
 
 int linearHashing::getBucketIndex(int val,int level){
-	// int lsbOfOnes = twoPower(level)-1;
 	return val % (this->initialBuckets*twoPower(level));  
+
 }
 
 
@@ -113,11 +86,11 @@ void linearHashing::printHashTable(){
 	cout<<"Level: "<<this->level<<endl;
 	unordered_set<BucketPage*> uset;
 	cout<<"Next bucket to split : "<<this->next<<endl;
-	cout<<"Bucket_No  "<<"Pages in bucket 		::| Elements |"<<endl;
+	cout<<"Bucket_No  "<<" 		::| Elements |"<<endl;
 	for(int i=0; i<this->hashTable.size(); i++){
 		if(uset.find(this->hashTable[i])!=uset.end())
 			continue;
-		cout<<i<<" 			"<<this->hashTable[i]->nPage<<" 		:: | ";
+		cout<<i<<" 			"<<" 		:: | ";
 		uset.insert(this->hashTable[i]);
 		for(auto l:this->hashTable[i]->page)
 			cout<<l<<" ";

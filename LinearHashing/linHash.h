@@ -9,7 +9,6 @@ using namespace std;
 class BucketPage
 {
 	public:
-		int nPage;
 		list<int>page;		
 };
 
